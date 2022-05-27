@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\USUARIO\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\USUARIO\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 18)
+[debug]       Load.loadUnit: plugins took 89.786ms
+[debug]       Load.loadUnit: defsScala took 0.2641ms
+[debug] [Loading] Scanning directory C:\Users\USUARIO\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\USUARIO\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.0976 ms
+[debug]           Load.resolveProject(global-plugins) took 42.8894ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\USUARIO\.sbt\1.0\plugins, plugins: List(<none>))) took 76.0065ms
+[debug] [Loading] Done in C:\Users\USUARIO\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 96.2664ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2001ms
+[debug]     Load.loadUnit(file:/C:/Users/USUARIO/.sbt/1.0/plugins/, ...) took 195.2022ms
+[debug]   Load.apply: load took 356.5446ms
+[debug]   Load.apply: resolveProjects took 5.9738ms
+[debug]   Load.apply: finalTransforms took 66.1561ms
+[debug]   Load.apply: config.delegates took 7.423ms
+[debug]   Load.apply: Def.make(settings)... took 505.5688ms
+[debug]   Load.apply: structureIndex took 116.0796ms
+[debug]   Load.apply: mkStreams took 2.2915ms
+[info] loading global plugins from C:\Users\USUARIO\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2669.7478ms
+[debug]           Load.loadUnit: plugins took 27.8087ms
+[debug]           Load.loadUnit: defsScala took 0.0063ms
+[debug] [Loading] Scanning directory C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled\project
+[debug]             Load.loadUnit: mkEval took 12.8905ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3563 ms
+[info] loading settings for project untitled-build from idea.sbt ...
+[debug]               Load.resolveProject(untitled-build) took 3.455ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled\project, plugins: List(<none>))) took 6.4657ms
+[debug] [Loading] Done in C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled\project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2478.3528ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.7367ms
+[debug]         Load.loadUnit(file:/C:/Users/USUARIO/OneDrive%20-%20Universidad%20Técnica%20Particular%20de%20Loja%20-%20UTPL/CUARTO%20CICLO/PROGRAMACIÓN-AVANZADA/PrimerBimestre/scala_pruebas_matrix_multiply/untitled/project/, ...) took 2516.5586ms
+[debug]       Load.apply: load took 2519.5149ms
+[debug]       Load.apply: resolveProjects took 0.1002ms
+[debug]       Load.apply: finalTransforms took 57.9492ms
+[debug]       Load.apply: config.delegates took 0.5898ms
+[debug]       Load.apply: Def.make(settings)... took 166.5029ms
+[debug]       Load.apply: structureIndex took 49.6437ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4255.8152ms
+[debug]     Load.loadUnit: defsScala took 0.0038ms
+[debug] [Loading] Scanning directory C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled
+[debug]       Load.loadUnit: mkEval took 0.257ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.7356 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 33.7145ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled, plugins: List(<none>))) took 38.4106ms
+[debug] [Loading] Done in C:\Users\USUARIO\OneDrive - Universidad Técnica Particular de Loja - UTPL\CUARTO CICLO\PROGRAMACIÓN-AVANZADA\PrimerBimestre\scala_pruebas_matrix_multiply\untitled, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1117.3597ms
+[debug]     Load.loadUnit: cleanEvalClasses took 73.9438ms
+[debug]   Load.loadUnit(file:/C:/Users/USUARIO/OneDrive%20-%20Universidad%20Técnica%20Particular%20de%20Loja%20-%20UTPL/CUARTO%20CICLO/PROGRAMACIÓN-AVANZADA/PrimerBimestre/scala_pruebas_matrix_multiply/untitled/, ...) took 5448.7079ms
+[debug] Load.apply: load took 5454.6322ms
+[debug] Load.apply: resolveProjects took 0.1402ms
+[debug] Load.apply: finalTransforms took 45.6867ms
+[debug] Load.apply: config.delegates took 0.301ms
+[debug] Load.apply: Def.make(settings)... took 59.2579ms
+[debug] Load.apply: structureIndex took 32.7892ms
+[debug] Load.apply: mkStreams took 0.004ms
+[info] set current project to untitled (in build file:/C:/Users/USUARIO/OneDrive%20-%20Universidad%20Técnica%20Particular%20de%20Loja%20-%20UTPL/CUARTO%20CICLO/PROGRAMACIÓN-AVANZADA/PrimerBimestre/scala_pruebas_matrix_multiply/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63171 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63171, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to untitled (in build file:/C:/Users/USUARIO/OneDrive%20-%20Universidad%20Técnica%20Particular%20de%20Loja%20-%20UTPL/CUARTO%20CICLO/PROGRAMACIÓN-AVANZADA/PrimerBimestre/scala_pruebas_matrix_multiply/untitled/)
+[debug] > Exec(idea-shell, None, None)
